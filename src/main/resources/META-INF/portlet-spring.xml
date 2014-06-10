@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.visitorapp.service.CustomerLocalService" class="com.visitorapp.service.impl.CustomerLocalServiceImpl" />
+	<bean id="com.visitorapp.service.CustomerService" class="com.visitorapp.service.impl.CustomerServiceImpl" />
+	<bean id="com.visitorapp.service.persistence.CustomerPersistence" class="com.visitorapp.service.persistence.CustomerPersistenceImpl" parent="basePersistence" />
+	<bean id="com.visitorapp.service.CustomerStoreVisitLocalService" class="com.visitorapp.service.impl.CustomerStoreVisitLocalServiceImpl" />
+	<bean id="com.visitorapp.service.CustomerStoreVisitService" class="com.visitorapp.service.impl.CustomerStoreVisitServiceImpl" />
+	<bean id="com.visitorapp.service.persistence.CustomerStoreVisitPersistence" class="com.visitorapp.service.persistence.CustomerStoreVisitPersistenceImpl" parent="basePersistence" />
+	<bean id="com.visitorapp.service.StoreLocationLocalService" class="com.visitorapp.service.impl.StoreLocationLocalServiceImpl" />
+	<bean id="com.visitorapp.service.StoreLocationService" class="com.visitorapp.service.impl.StoreLocationServiceImpl" />
+	<bean id="com.visitorapp.service.persistence.StoreLocationPersistence" class="com.visitorapp.service.persistence.StoreLocationPersistenceImpl" parent="basePersistence" />
+</beans>

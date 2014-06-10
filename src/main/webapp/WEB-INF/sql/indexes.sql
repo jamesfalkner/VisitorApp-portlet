@@ -1,0 +1,1 @@
+create index IX_8F857B4 on VisitorApp_CustomerStoreVisit (storelocationId, customerId);

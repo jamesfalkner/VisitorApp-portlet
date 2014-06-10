@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<root>
+        <template>
+                <template-key>customer-visit-analysis-ftl</template-key>
+                <name>Visitor App - Customer List</name>
+                <description>Displays some info about customers.</description>
+                <language>ftl</language>
+                <script-file>adt-resources/customers.ftl</script-file>
+                <cacheable>false</cacheable>
+        </template>
+        <template>
+                <template-key>store-location-ftl</template-key>
+                <name>Visitor App - Store Location List</name>
+                <description>Displays some info about stores.</description>
+                <language>ftl</language>
+                <script-file>adt-resources/stores.ftl</script-file>
+                <cacheable>false</cacheable>
+        </template>
+        <template>
+                <template-key>customer-engagement-map</template-key>
+                <name>Visitor App - Customer Engagement Demo</name>
+                <description>Displays some interesting stats about your customers.</description>
+                <language>ftl</language>
+                <script-file>adt-resources/customer-map.ftl</script-file>
+                <cacheable>false</cacheable>
+        </template>
+</root>

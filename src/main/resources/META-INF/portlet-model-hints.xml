@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.visitorapp.model.Customer">
+		<field name="customerId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="picture" type="String" />
+		<field name="email" type="String" />
+	</model>
+	<model name="com.visitorapp.model.CustomerStoreVisit">
+		<field name="customerstorevisitId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="customerId" type="long" />
+		<field name="storelocationId" type="long" />
+	</model>
+	<model name="com.visitorapp.model.StoreLocation">
+		<field name="storelocationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="address" type="String" />
+	</model>
+</model-hints>
